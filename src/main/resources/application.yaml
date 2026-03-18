@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: GeminiDocAI
+
+gemini:
+  api:
+    key: AIzaSyAU2nsjJRnxa8SS3OIZf2mGFw6sZIGQRpY
+    url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+
+server:
+  port: 8080
